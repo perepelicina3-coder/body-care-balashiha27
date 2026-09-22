@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/body-care-balashiha27/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
